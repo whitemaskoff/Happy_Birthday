@@ -99,7 +99,7 @@ export const defaultContent = {
       id: 'b17',
       lines: [
         "You still stare at the other's ice cream with temptation.",
-        'Shifat still picks his nose and puts it in his mouth.',
+        'shifat still picks his nose and puts it in your mouth.',
         "You still laugh at things that aren't even funny.",
       ],
     },

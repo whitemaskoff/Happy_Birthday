@@ -1,9 +1,13 @@
 export default function Gift({ opened, photos, prompt, label, onOpen }) {
   if (opened) {
     return (
-      <div className="gift-full">
-        <img src={photos[0]} alt="" />
-        <img src={photos[1]} alt="" />
+      <div className="gift-frames">
+        <figure className="gift-frame">
+          <img src={photos[0]} alt="" />
+        </figure>
+        <figure className="gift-frame">
+          <img src={photos[1]} alt="" />
+        </figure>
       </div>
     )
   }

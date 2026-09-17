@@ -16,7 +16,7 @@ import {
   savePhoto,
 } from './mediaStore'
 
-const KEY = 'maryam-radio-v5'
+const KEY = 'maryam-radio-v6'
 const ContentCtx = createContext(null)
 
 function mergeContent(saved) {
