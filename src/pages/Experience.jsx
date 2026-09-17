@@ -44,7 +44,10 @@ export default function Experience() {
   const block = idx >= 0 ? blocks[idx] : null
   const spoken = block ? block.lines.map((l) => interpolate(l, content)).join('\n') : ''
   const herName = interpolate('{{herName}}', content)
-  const pair = ['/gift/one.jpg', '/gift/two.jpg']
+  const pair = [
+    `${import.meta.env.BASE_URL}gift/one.jpg`,
+    `${import.meta.env.BASE_URL}gift/two.jpg`,
+  ]
   const nightish = ['night', 'finale', 'gift', 'photos', 'dying'].includes(phase)
 
   useEffect(() => {
