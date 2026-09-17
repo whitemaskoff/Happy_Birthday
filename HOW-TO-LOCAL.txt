@@ -1,0 +1,30 @@
+A Message From the Future — local hosting
+========================================
+
+1. Double-click start-local.bat
+   OR in PowerShell:
+
+   cd "D:\WORK\Project\Maryam Birthday"
+   npm install
+   npm run dev
+
+2. Gift (for Maryam):
+   http://localhost:5173
+   She turns the radio. One spoken line at a time. Long gaps. The line dies. Then today.
+
+3. Admin (for you, hidden):
+   http://localhost:5173/admin
+   PIN: 2036   (change it in Admin)
+   Edit each spoken line. Do not write paragraphs.
+
+4. To show her on her phone, keep this PC on, same Wi-Fi.
+   The terminal prints a Network URL such as http://192.168.x.x:5173
+   Open that on her phone.
+
+5. Optional freeze for a USB stick:
+   npm run build
+   npm run preview
+
+No internet is required after npm install.
+Photos and story edits stay on this computer (browser storage).
+Use Export backup in Admin if you want a file copy.
